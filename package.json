@@ -1,0 +1,25 @@
+{
+  "name": "wetter-api",
+  "version": "1.0.0",
+  "description": "A small weather app, written with node and tested with jasmine",
+  "main": "program.js",
+  "scripts": {
+    "test": "jasmine"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SaschaG/WetterAPI.git"
+  },
+  "keywords": [
+    "weather"
+  ],
+  "author": "Sascha Gundel",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/SaschaG/WetterAPI/issues"
+  },
+  "homepage": "https://github.com/SaschaG/WetterAPI#readme",
+  "devDependencies": {
+    "jasmine": "^3.3.0"
+  }
+}
