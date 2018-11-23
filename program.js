@@ -6,8 +6,8 @@ const rl = readline.createInterface({
   output: process.stdout
 });
 
-rl.question("Please enter a city name, for detailed weather information.", (answer) => {
-  //use the answer further for the api
+rl.question("Please enter a city name of germany, for detailed weather information.", (answer) => {
+  
 
   rl.close();
 });

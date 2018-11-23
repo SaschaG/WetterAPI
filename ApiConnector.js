@@ -1,5 +1,4 @@
 const request = require("request");
-//&APPID=1207c46e71bb5fe59edc6a44acd5d566
 function ApiConnector(){
 
 }
