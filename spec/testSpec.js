@@ -15,6 +15,7 @@ describe("ApiConnector", function(){
 	});
 
 
+	//testing with nonsense input first. Expecting the API to send a 404 city not found
 	it(".getForecastByName should get an 404", function(done) {
 	    ApiConnector.getForecastByName("tqiubwqbasu")
 	    .then(function(result) {
@@ -30,6 +31,7 @@ describe("ApiConnector", function(){
 		});
   	});
 
+	//expecting the api to answer with a 200 and weather data
   	it(".getForecastByName should get an 200", function(done) {
 	    ApiConnector.getForecastByName("Hamburg")
 	    .then(function(result) {
